@@ -20,7 +20,7 @@ function App() {
 	return (
 		<>
 			<S.SectionOne>
-				<img src={blackFriday}></img>
+				<img src={blackFriday} alt="blackFriday"></img>
 			</S.SectionOne>
 
 			<S.SectionTwo>
