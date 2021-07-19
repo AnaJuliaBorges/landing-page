@@ -4,7 +4,6 @@ import blackFriday from "./assets/BlackFriday.png";
 import motog100 from "./assets/motog100.png";
 import note7lite from "./assets/note7lite.png";
 import xr from "./assets/xr.png";
-import pessoas from "./assets/pessoas.png";
 
 function App() {
 	const [name, setName] = useState("");
@@ -32,19 +31,19 @@ function App() {
 
 				<S.ContainerProducts>
 					<S.Products>
-						<img src={note7lite} />
+						<img src={note7lite} alt="note 7 Lite" />
 						<span>Xiaomi Note 7 Lite</span>
 						<span>R$ 900</span>
 					</S.Products>
 
 					<S.Products>
-						<img src={motog100} />
+						<img src={motog100} alt="motog100" />
 						<span>Moto G100</span>
 						<span>R$ 1000</span>
 					</S.Products>
 
 					<S.Products>
-						<img src={xr} />
+						<img src={xr} alt="Iphone Xr" />
 						<span>Iphone XR</span>
 						<span>R$ 1200</span>
 					</S.Products>
